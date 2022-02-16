@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+          
+        </div>
+
+        <ul class="list-unstyled components">
+            <li class="active">
+                
+            <li>
+                <a href="index.html">About</a>
+            </li>
+            <li>
+              
+            <li>
+                <a href="#scroll">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Socials</a>
+            </li>
+        </ul>
+      
+
+
+    </nav>   
+
+    <div id="content">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+ 
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                  
+                </button>
+                
+    
+            </div>
+        </nav>
+        
+        <div class = "about-wrapper">
+            <div class = "about-left">
+              <div class = "about-left-content">
+                <div>
+                  <div class = "shadow">
+                    <div class = "about-img">
+                      <img src = "Untitled_2_1_0.png" alt = "about image">
+                    </div>
+                  </div>
+      
+                  <h2>Farhah Din</h2>
+                  
+                </div>
+      
+                <ul class = "icons">
+                  <li><i class = "fab fa-facebook-f"></i></li>
+                  <li><i class = "fab fa-twitter"></i></li>
+                  <li><i class = "fab fa-linkedin"></i></li>
+                  <li><i class = "fab fa-instagram"></i></li>
+                </ul>
+              </div>
+              
+            </div>
+      
+            <div class = "about-right">
+              <h1>Hello<span>!</span></h1>
+              <h2>Here's who I am & my work</h2>
+              <div class = "about-btns">
+                <button type = "button" class = "btn btn-pink">resume / CV</button>
+                <button type = "button" class = "btn btn-white">Git hub</button>
+              </div>
+      
+              <div class = "about-para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aspernatur possimus ullam quaerat, laboriosam ex voluptate aliquid laborum, obcaecati ratione accusamus! Ea nisi modi dolor nam numquam? Temporibus, molestias amet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iure tempora alias laudantium sapiente impedit!</p>
+              </div>
+              
+           </div>
+           </div>
+            
+           <h1 id="scroll"></h1>
+           <div class="card">
+            <div class="card-header">
+            
+            </div>
+            <div class="card-body">
+              <h5 id="card-title">Project 1</h5>
+              <p class="card-text"> KDFJKDFJDKGDJKDJK</p>
+              <a href="https://farhahdin1997.github.io/foodPitVersion3/" class="btn btn-primary">View</a>
+            </div>
+          </div>
+
+           <div class="row">
+            <div class="col-md-3">
+            <div class="card">
+              <img class="card-img-top" src="img/card1.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">This is Card #1</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card card-inverse card-primary text-center">
+              <img class="card-img-top" src="img/card2.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">This is Card #2</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+            </div>
+            </div>
+        </div>
+        
+        
+        <div class="col-md-3">
+            <div class="card card-inverse card-success text-center">
+              <img class="card-img-top" src="img/card3.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">This is Card #3</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+            </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card card-inverse card-info text-center">
+              <img class="card-img-top" src="img/card4.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title">This is Card #4</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+            </div>
+            </div>
+            
+        </div>
+        
+        </div>
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src = "index.js"> </script>
+</body>
+
+</html>
