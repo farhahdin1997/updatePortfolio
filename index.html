@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+    <title> My Profile </title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -33,11 +33,9 @@
             <li>
               
             <li>
-                <a href="#scroll">Portfolio</a>
+                <a href="#scroll1">Portfolio</a>
             </li>
-            <li>
-                <a href="#">Socials</a>
-            </li>
+           
         </ul>
       
 
@@ -72,12 +70,7 @@
                   
                 </div>
       
-                <ul class = "icons">
-                  <li><i class = "fab fa-facebook-f"></i></li>
-                  <li><i class = "fab fa-twitter"></i></li>
-                  <li><i class = "fab fa-linkedin"></i></li>
-                  <li><i class = "fab fa-instagram"></i></li>
-                </ul>
+               
               </div>
               
             </div>
@@ -86,80 +79,69 @@
               <h1>Hello<span>!</span></h1>
               <h2>Here's who I am & my work</h2>
               <div class = "about-btns">
-                <button type = "button" class = "btn btn-pink">resume / CV</button>
-                <button type = "button" class = "btn btn-white">Git hub</button>
+                <!-- Change this button to allow them to download the cv in pdf-->
+              <button type = "button" class = "btn btn-dark ">resume / CV</button>
+                <a class="btn btn-large btn-dark" href="https://github.com/farhahdin1997" target="_blank">Github</a>
+                <a class="btn btn-large btn-dark" href="https://www.linkedin.com/in/farhah-din-7b2b53112" target="_blank">Linkedin</a>
               </div>
       
               <div class = "about-para">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aspernatur possimus ullam quaerat, laboriosam ex voluptate aliquid laborum, obcaecati ratione accusamus! Ea nisi modi dolor nam numquam? Temporibus, molestias amet.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iure tempora alias laudantium sapiente impedit!</p>
+                <p>My name is farhah , i am 24 years old from Nuneaton. I have a kenyan/pakistani background. I am a recent graduate in IT and Business who is also inspiring to be a web developer and devlop my carear in tech</p>
+
               </div>
-              
            </div>
            </div>
-            
-           <h1 id="scroll"></h1>
-           <div class="card">
-            <div class="card-header">
-            
-            </div>
-            <div class="card-body">
-              <h5 id="card-title">Project 1</h5>
-              <p class="card-text"> KDFJKDFJDKGDJKDJK</p>
-              <a href="https://farhahdin1997.github.io/foodPitVersion3/" class="btn btn-primary">View</a>
-            </div>
-          </div>
+            <br>
+           <h1 id="scroll1"></h1>
+           <div class = "projects">
+           <h1>Projects<span>!</span></h1>
+           <div class="wrapper">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mx-30">
+                      <img src="Untitled 3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text"> Created an app as a group that allows users to search recipes and also view them via youtube.</p><br> 
+                        <a class="btn btn-large btn-dark" href="https://farhahdin1997.github.io/foodPitVersion3/" target="_blank">Deployment</a>
+                        <a class="btn btn-large btn-dark" href="https://github.com/farhahdin1997/foodPitVersion3" target="_blank">Repo</a>
+                    </div>
+    </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+                    <div class="card mx-30">
+                      <img src="Untitled.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title">Weather Application</p>
 
-           <div class="row">
-            <div class="col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="img/card1.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">This is Card #1</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
-            </div>
-            </div>
-        </div>
-        
-        <div class="col-md-3">
-            <div class="card card-inverse card-primary text-center">
-              <img class="card-img-top" src="img/card2.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">This is Card #2</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
-            </div>
-            </div>
-        </div>
-        
-        
-        <div class="col-md-3">
-            <div class="card card-inverse card-success text-center">
-              <img class="card-img-top" src="img/card3.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">This is Card #3</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
-            </div>
-            </div>
-        </div>
-        
-        <div class="col-md-3">
-            <div class="card card-inverse card-info text-center">
-              <img class="card-img-top" src="img/card4.jpg" alt="Card image cap">
-              <div class="card-block">
-                <h4 class="card-title">This is Card #4</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
-            </div>
-            </div>
-            
-        </div>
-        
-        </div>
-
-
+    <p class="card-text">A weather app that allows the user to search any city and displays the weather for that paricular city and also shows a 5 day forecast </p>
+    <a class="btn btn-large btn-dark" href="https://farhahdin1997.github.io/weatherApp//" target="_blank">Deployment</a>
+    <a class="btn btn-large btn-dark" href="https://github.com/farhahdin1997/weatherApp" target="_blank">Repo</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6 col-lg-4">
+                    <div class="card mx-30">
+                      <img src="Untitled 1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title"> Password Generator</h5>
+                        
+    <p class="card-text"> A password generator that allows users to create a random and secrure password</p><br>
+    <a class="btn btn-large btn-dark" href="https://farhahdin1997.github.io/Password_Generator/" target="_blank">Deployment</a>
+    <a class="btn btn-large btn-dark" href="https://github.com/farhahdin1997/Password_Generator" target="_blank">Repo</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+    <br>
+    <br>
+    
+    
+       
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Popper.JS -->

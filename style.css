@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
 }
 
 p {
@@ -8,7 +7,7 @@ p {
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color:whitesmoke;
 }
 
 a, a:hover, a:focus {
@@ -31,7 +30,7 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #6d7fcc
 }
 
 #sidebar ul p {
@@ -156,8 +155,6 @@ a[data-toggle="collapse"] {
     height: 200px;
 }
 
-
-
 .about-left-content h2{
     font-size: 2rem;
     margin: 2.2rem 0 0.6rem 0;
@@ -193,10 +190,10 @@ a[data-toggle="collapse"] {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
-.icons li:hover{
+/* .icons li:hover{
     background: #edffec;
     color: #000;
-}
+} */
 .about-right{
     background: #12192c;
     height: 100vh;
@@ -260,13 +257,74 @@ a[data-toggle="collapse"] {
     font-weight: 300;
     padding: 0.5rem;
     opacity: 0.8;
+    color:white;
 }
 
-.card-body{
-    background-image:-moz-linear-gradient('Untilted_2_1_0.png');
+
+
+/*Cards*/
+
+   .wrapper {
+   padding-top: 120px;
+   }
+   .card-img-top {
+   box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+   }
+   .card-body{
+       text-align: center;
+       box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+
+   }
+   .card-body h6 {
+   font-size: 14px;
+   text-transform: uppercase;
+   color: black;
+   }
+   
+   .card-body p {
+       color: black;
+   }
+   .card
+   .card-title {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 24px;
+   color:black;
+   }
+   
+   
+   @media (max-width: 800px){
+       .mx-30{
+           margin-bottom: 30px;
+       }
+   }
+   
+  /*project*/
+  .projects{
+background: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+    color:black;
 }
+.projects h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.projects h1 span{
+    color: #B721FF;
+}
+.projects h2{
+    font-weight: 600;
+}
+
 @media screen and (min-width: 992px){
-    .about-wrapper{
+    .about-wrapper
+    {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
