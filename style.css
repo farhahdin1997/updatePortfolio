@@ -329,14 +329,17 @@ background: white;
         grid-template-columns: repeat(2, 2fr);
     }
 
-    .about-left{
+    .about-left
+    .projects{
         position: relative;
     }
-    .about-left-content{
+    .about-left-content
+    .projects{
         position: absolute;
         width:80%
     
     }
+    
 }
 .credit{
     text-align: center;
