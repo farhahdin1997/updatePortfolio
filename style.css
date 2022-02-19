@@ -110,7 +110,7 @@ a[data-toggle="collapse"] {
 
 
 .about-wrapper{
-    height: 100vh;
+    /*height: 100vh;*/
 }
 .about-left{
     background-color: #21D4FD;
@@ -265,7 +265,7 @@ a[data-toggle="collapse"] {
 /*Cards*/
 
    .wrapper {
-   padding-top: 120px;
+   padding-top: 30px;
    }
    .card-img-top {
    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
@@ -302,7 +302,7 @@ a[data-toggle="collapse"] {
   /*project*/
   .projects{
 background: white;
-    height: 100vh;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
