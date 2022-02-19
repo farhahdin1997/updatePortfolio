@@ -13,8 +13,21 @@ Bootstrap
 ```
 
 ## ScreenShots
+Desktop View
+<img width="1438" alt="Untitled" src="https://user-images.githubusercontent.com/81389441/154804530-c8bc16c4-1b32-47d5-8fce-0cf1b783511e.png">
 
 <br>
+<img width="1438" alt="Untitled 2" src="https://user-images.githubusercontent.com/81389441/154804536-6594b718-8eca-4ec4-83a8-41e6880d0986.png">
+
+Mobile View
+
+<img width="552" alt="Untitled 6" src="https://user-images.githubusercontent.com/81389441/154804630-e7661891-cf05-4c03-b30a-8f62c9778c61.png">
+<br>
+<img width="552" alt="Untitled 7" src="https://user-images.githubusercontent.com/81389441/154804642-638ace02-eb4f-4847-93d5-afbe2904fa3c.png">
+<br>
+<img width="552" alt="Untitled 8" src="https://user-images.githubusercontent.com/81389441/154804647-9fa6ca34-8f66-4b8a-9527-8cd7dae44db2.png">
+<br>
+<img width="535" alt="Untitled 9" src="https://user-images.githubusercontent.com/81389441/154804652-7ba1c980-597e-45a6-972c-f805bca144b3.png">
 
 
 
